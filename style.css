@@ -28,8 +28,12 @@ a{
     width: 900px;
     align-items: center;
 }
+
 .logo{
-    color: #F9FAF8;
     font-size: 24px;
-    font-weight: 800;
+    font-weight: 700;
+    color: #eee;
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
