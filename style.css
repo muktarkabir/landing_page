@@ -5,9 +5,8 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
 }
-body{
-    border: 1px solid hotpink;
-}
+
+
 ul{
     display: flex;
     gap: 30px;
@@ -17,6 +16,7 @@ ul{
 a{
     text-decoration: none;
     color: #eee;
+    
 }
 
 .header-container{
@@ -31,7 +31,7 @@ a{
     justify-content: space-between;
     width: 1000px;
     align-items: center;
-    border: 1px solid hotpink;
+   
 }
 
 .logo{
@@ -54,7 +54,7 @@ a{
     width: 1000px;
     height: 500px;
     align-items: center;
-    border: 1px solid hotpink;
+    
   
 }
 .hero-text{
@@ -73,7 +73,7 @@ a{
     height: 250px;
     width: 500px;
     justify-content: flex-end;
-    border: 1px solid hotpink;
+    
 }
 /* .hero-image > img{
     width: 500px;
@@ -101,4 +101,34 @@ p{
     color: #eee;
     border: 1px solid #3882F6;
     font-weight: bold;
+}
+button:hover {
+    cursor: pointer;
+  }
+
+.information-container{
+    display: flex;
+   justify-content: center;
+    background-color: lightskyblue;
+    border: 1px solid hotpink;
+    flex-direction: column;
+    align-items: center;
+}
+.information{
+    display: flex;
+    justify-content: space-around; 
+    flex-direction: column;
+    width: 1000px;
+    height: 400px;
+    border: 1px solid hotpink;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 12px;
+    font-weight: 300;
+    font-size: 26px;
+    width: 1000px;
+    border: 1px solid hotpink;
 }
