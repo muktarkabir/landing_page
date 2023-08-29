@@ -230,3 +230,18 @@ button:hover {
     border: 2px solid #eee;
     font-weight: bold;
 }
+.footer-container{
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    padding: 10px 0;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    height: 40px;
+    align-items: center;
+    color: #eee;
+
+}
