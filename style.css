@@ -20,7 +20,7 @@ a{
     display: flex;
     background-color: #1F2937;
     justify-content: space-around;
-    padding: 15px 0;   
+    padding: 10px 0;   
 }
 .header{
     display: flex;
@@ -32,8 +32,30 @@ a{
 .logo{
     font-size: 24px;
     font-weight: 700;
-    color: #eee;
+    color: rgb(238, 177, 10);
     display: flex;
     align-items: center;
     gap: 8px;
+}
+.hero-container{
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-around;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    height: 500px;
+    align-items: center;
+}
+.hero-text{
+    color: #eee;
+}
+.hero-image{
+    display: flex;
+    height: 250px;
+    width: 500px;
+    border-radius: 6px;
+    justify-content: flex-end;
 }
