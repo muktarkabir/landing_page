@@ -87,3 +87,18 @@ p{
     font-size: 15px;
     font-weight: 45px;
 }
+.sign-up{
+    display: flex;
+    margin-top: 15px;
+}
+
+.sign-up-button{
+    width: 120px;
+    height: 40px;
+    /* padding: 10px; */
+    background-color: #3882F6;
+    border-radius: 10px;
+    color: #eee;
+    border: 1px solid #3882F6;
+    font-weight: bold;
+}
