@@ -5,6 +5,9 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
 }
+body{
+    border: 1px solid hotpink;
+}
 ul{
     display: flex;
     gap: 30px;
@@ -20,13 +23,15 @@ a{
     display: flex;
     background-color: #1F2937;
     justify-content: space-around;
-    padding: 10px 0;   
+    padding: 10px 0;
+     
 }
 .header{
     display: flex;
     justify-content: space-between;
-    width: 900px;
+    width: 1000px;
     align-items: center;
+    border: 1px solid hotpink;
 }
 
 .logo{
@@ -41,21 +46,44 @@ a{
     display: flex;
     background-color: #1F2937;
     justify-content: space-around;
+   
 }
 .hero{
     display: flex;
     justify-content: space-between;
-    width: 900px;
+    width: 1000px;
     height: 500px;
     align-items: center;
+    border: 1px solid hotpink;
+  
 }
 .hero-text{
     color: #eee;
+    border: 1px solid hotpink;
+    display: flex;
+    height: 250px;
+    width: 700px;
+    flex-direction: column;
+    /* padding-top: 120px; */
+    justify-content: flex-start;
+    font-size: 13px;
 }
 .hero-image{
     display: flex;
     height: 250px;
     width: 500px;
-    border-radius: 6px;
     justify-content: flex-end;
+    border: 1px solid hotpink;
+}
+/* .hero-image > img{
+    width: 500px;
+    height: auto;
+} */
+h1{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+p{
+    font-size: 15px;
+    font-weight: 45px;
 }
