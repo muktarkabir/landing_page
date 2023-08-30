@@ -23,7 +23,7 @@ a{
 .header{
     display: flex;
     justify-content: space-between;
-    width: 1000px;
+    width: 900px;
     align-items: center;
    
 }
@@ -43,7 +43,7 @@ a{
 .hero{
     display: flex;
     justify-content: space-between;
-    width: 1000px;
+    width: 900px;
     height: 500px;
     align-items: center;
 }
@@ -101,7 +101,7 @@ button:hover {
     display: flex;
     align-items: space-between; 
     flex-direction: column;
-    width: 1000px;
+    width: 900px;
     height: 550px;
 }
 .title{
@@ -111,7 +111,7 @@ button:hover {
     padding: 12px;
     font-weight: 300;
     font-size: 26px;
-    width: 1000px;
+    width: 900px;
     
 }
 .content{
@@ -171,7 +171,7 @@ button:hover {
 }
 .quote{
     display: flex;
-    width: 1000px;
+    width: 900px;
     height: 300px;
     justify-content: center;
     color: #eee;
@@ -239,7 +239,7 @@ button:hover {
 .footer{
     display: flex;
     justify-content: center;
-    width: 1000px;
+    width: 900px;
     height: 40px;
     align-items: center;
     color: #eee;
