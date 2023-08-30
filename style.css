@@ -1,13 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+    box-sizing: border-box;   
 }
 body{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    font-family: Roboto, sans-serif;
 }
 
 ul{
@@ -61,6 +63,9 @@ a{
     /* padding-top: 120px; */
     justify-content: flex-start;
     font-size: 13px;
+}
+.hero-text > h1{
+    font-size: 40px;
 }
 .hero-image{
     display: flex;
@@ -183,12 +188,12 @@ button:hover {
     flex-direction: column;
 }
 
-.quote > h1{
+.quote > p{
      display: flex;
      flex-direction: row;
      justify-content: flex-start;
-     font-style: italic;
-     font-weight: 40px;
+     font-size: 36px;
+     font-style: light-italic;
      
 }
 
@@ -196,6 +201,8 @@ button:hover {
     display: flex;
      flex-direction: row;
      justify-content: flex-end;
+     font-size: 20px;
+     font-weight: 900;
 }
 
 .action-container{
