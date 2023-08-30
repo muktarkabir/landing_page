@@ -194,7 +194,7 @@ button:hover {
      justify-content: flex-start;
      font-size: 36px;
      font-style: light-italic;
-     
+     padding-bottom: 15px;
 }
 
 .quote > h4{
