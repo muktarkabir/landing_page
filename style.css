@@ -21,10 +21,7 @@ a {
 	text-decoration: none;
 	color: #eee;
 }
-img {
-	max-width: fit-content;
-	height: auto;
-}
+
 .header-container {
 	display: flex;
 	background-color: #1f2937;
@@ -129,19 +126,11 @@ button:hover {
 	flex-wrap: wrap;
 	justify-content: center;
 	background-color: #eee;
-	/* flex-direction: column; */
 	align-items: center;
 	min-height: 550px;
 	width: 100%;
 }
-/* .information {
-	display: flex;
-	flex-wrap: wrap;
-	align-items: space-between;
-	flex-direction: column;
-	width: 900px;
-	min-height: 550px;
-} */
+
 .title {
 	display: flex;
 	flex-shrink: 1;
@@ -169,7 +158,8 @@ button:hover {
 	align-items: flex-start;
 	flex-basis: 200px;
 	/* width: 200px; */
-	height: 500px;
+	height: auto;
+	gap: 10px;
 	max-width: 200px;
 	flex-wrap: wrap;
 	border: 1px solid #ccc;
@@ -183,7 +173,7 @@ button:hover {
 }
 .pic > img {
 	height: 200px;
-	width: 200px;
+	max-width: 100%;
 	border-radius: 12px;
 }
 .fact {
@@ -194,7 +184,6 @@ button:hover {
 	max-width: 200px;
 	flex-wrap: wrap;
 	text-align: center;
-	align-self: flex-start;
 }
 
 .quote-container {
