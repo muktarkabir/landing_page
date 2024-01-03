@@ -16,7 +16,6 @@ ul {
 	display: flex;
 	gap: 15px;
 	list-style-type: none;
-	border: 2px solid palevioletred;
 	flex-wrap: wrap;
 }
 a {
@@ -30,7 +29,6 @@ a {
 	justify-content: space-around;
 	padding: 10px 0;
 	width: 100%;
-	border: 3px solid goldenrod;
 }
 .header {
 	display: flex;
@@ -38,7 +36,6 @@ a {
 	width: 80%;
 	align-items: center;
 	flex-wrap: wrap;
-	border: 2px solid silver;
 }
 .logo {
 	font-size: 2rem;
@@ -47,7 +44,6 @@ a {
 	display: flex;
 	align-items: center;
 	gap: 8px;
-	border: 2px solid palevioletred;
 	flex-grow: 1;
 	flex-wrap: wrap;
 }
@@ -66,7 +62,6 @@ a {
 	flex-wrap: wrap;
 	min-height: 100dvh;
 	align-items: center;
-	border: 4px solid goldenrod;
 }
 
 .for-flex {
