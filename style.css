@@ -14,8 +14,10 @@ body {
 
 ul {
 	display: flex;
-	gap: 30px;
+	gap: 15px;
 	list-style-type: none;
+	border: 2px solid palevioletred;
+	flex-wrap: wrap;
 }
 a {
 	text-decoration: none;
@@ -28,20 +30,26 @@ a {
 	justify-content: space-around;
 	padding: 10px 0;
 	width: 100%;
+	border: 3px solid goldenrod;
 }
 .header {
 	display: flex;
 	justify-content: space-between;
 	width: 80%;
 	align-items: center;
+	flex-wrap: wrap;
+	border: 2px solid silver;
 }
 .logo {
-	font-size: 24px;
+	font-size: 2rem;
 	font-weight: 700;
 	color: rgb(238, 177, 10);
 	display: flex;
 	align-items: center;
 	gap: 8px;
+	border: 2px solid palevioletred;
+	flex-grow: 1;
+	flex-wrap: wrap;
 }
 .hero-container {
 	display: flex;
