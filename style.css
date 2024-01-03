@@ -30,11 +30,12 @@ img {
 	background-color: #1f2937;
 	justify-content: space-around;
 	padding: 10px 0;
+	width: 100%;
 }
 .header {
 	display: flex;
 	justify-content: space-between;
-	width: 900px;
+	width: 80%;
 	align-items: center;
 }
 .logo {
