@@ -17,6 +17,7 @@ ul {
 	gap: 15px;
 	list-style-type: none;
 	flex-wrap: wrap;
+	justify-content: space-around;
 }
 a {
 	text-decoration: none;
@@ -56,30 +57,26 @@ a {
 .hero {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
+	justify-content: space-evenly;
 	max-width: 80%;
 	min-width: 40%;
-	flex-wrap: wrap;
 	min-height: 100dvh;
 	height: auto;
 	align-items: center;
 	padding-bottom: 40px;
+	gap: 17px;
 }
 .hero-item {
 	display: flex;
 	flex-wrap: wrap;
 	flex-basis: 400px;
 	padding-bottom: 10px;
-	gap: 7px;
 }
 
 .hero-text {
 	color: #eee;
 	flex-wrap: wrap;
 	min-height: 44%;
-	min-width: 40%;
-	max-width: 90%;
-	flex-direction: column;
 	justify-content: flex-start;
 	font-size: 13px;
 	flex-basis: 430px;
@@ -113,7 +110,6 @@ p {
 .sign-up-button {
 	width: 120px;
 	height: 40px;
-	/* padding: 10px; */
 	background-color: #3882f6;
 	border-radius: 10px;
 	color: #eee;
@@ -136,7 +132,6 @@ button:hover {
 
 .title {
 	display: flex;
-	flex-shrink: 1;
 	justify-content: center;
 	text-align: center;
 	flex-direction: row;
@@ -161,7 +156,6 @@ button:hover {
 	margin-top: 1.5rem;
 	align-items: flex-start;
 	flex-basis: 200px;
-	/* width: 200px; */
 	height: auto;
 	gap: 10px;
 	max-width: 200px;
@@ -182,7 +176,6 @@ button:hover {
 }
 .fact {
 	display: flex;
-	flex-direction: row;
 	justify-content: flex-start;
 	height: auto;
 	max-width: 200px;
@@ -207,9 +200,6 @@ button:hover {
 }
 
 .quote > p {
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-start;
 	font-size: 36px;
 	font-style: light-italic;
 	padding-bottom: 15px;
@@ -217,7 +207,6 @@ button:hover {
 
 .quote > h4 {
 	display: flex;
-	flex-direction: row;
 	justify-content: flex-end;
 	font-size: 20px;
 	font-weight: 900;
@@ -246,11 +235,11 @@ button:hover {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	gap: 10px;
+	gap: 15px;
 	align-items: center;
 	min-height: 75px;
+	width: 90%;
 	color: #eee;
-	flex-grow: 2;
 }
 
 .the-text {
@@ -279,5 +268,6 @@ button:hover {
 	width: 900px;
 	height: 40px;
 	align-items: center;
+	text-align: center;
 	color: #eee;
 }
