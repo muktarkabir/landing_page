@@ -80,12 +80,16 @@ a {
 	justify-content: flex-start;
 	font-size: 13px;
 	flex-basis: 430px;
+
+	h1{
+		font-size: 2rem;
+	}
 }
-.hero-text > h1 {
+/* .hero-text > h1 {
 	font-size: 40px;
-}
+} */
 .hero-image {
-	height: 44%;
+	/* height: 44%; */
 	width: 100%;
 	flex-basis: 400px;
 }
@@ -93,6 +97,7 @@ a {
 .hero-image img {
 	max-width: 100%;
 	height: auto;
+	object-fit: contain;
 }
 h1 {
 	font-size: 30px;
@@ -136,10 +141,11 @@ button:hover {
 	text-align: center;
 	flex-direction: row;
 	padding: 12px;
-	font-weight: 300;
+	font-weight: 900;
 	font-size: 2rem;
 	width: 100%;
 	line-height: 2lh;
+	color: #1f2937;
 }
 .content {
 	display: flex;
@@ -153,13 +159,13 @@ button:hover {
 .fun-fact {
 	display: flex;
 	flex-wrap: wrap;
+	flex-direction: column;
 	margin-top: 1.5rem;
 	align-items: flex-start;
 	flex-basis: 200px;
-	height: auto;
+	min-height: 490px;
 	gap: 10px;
 	max-width: 200px;
-	flex-wrap: wrap;
 	border: 1px solid #ccc;
 	border-radius: 10px;
 	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
@@ -172,7 +178,7 @@ button:hover {
 .pic > img {
 	height: 200px;
 	max-width: 100%;
-	border-radius: 12px;
+	border-radius: 10px;
 }
 .fact {
 	display: flex;
@@ -181,6 +187,7 @@ button:hover {
 	max-width: 200px;
 	flex-wrap: wrap;
 	text-align: center;
+	padding: 4px;
 }
 
 .quote-container {
@@ -189,6 +196,7 @@ button:hover {
 	align-items: center;
 	background-color: #5c677d;
 	min-height: 300px;
+	padding: 16px;
 }
 .quote {
 	display: flex;
